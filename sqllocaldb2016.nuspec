@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sqllocaldb2016</id>
+    <version>13.1.4001.0</version>
+    <title>SQL Server 2016 Express LocalDB</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://www.microsoft.com/en-us/sql-server/sql-server-2016</projectUrl>
+    <tags>sqllocaldb2016 sqllocaldb</tags>
+    <summary>Install Microsoft SQL Server 2016 Express LocalDB.</summary>
+    <docsUrl>https://docs.microsoft.com/en-us/sql/tools/sqllocaldb-utility</docsUrl>
+    <description>Microsoft SQL Server 2016 Express LocalDB is a feature of [SQL Server Express](https://msdn.microsoft.com/library/ms144275(SQL.130).aspx) targeted to developers. It is available on SQL Server 2016 Express with Advanced Services.
+
+SqlLocalDB utility to create an instance of MicrosoftSQL Server 2016 Express LocalDB. The SqlLocalDB utility (SqlLocalDB.exe) is a simple command line tool to enable users and developers to create and manage an instance of SQL Server Express LocalDB. For information about how to use LocalDB</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
